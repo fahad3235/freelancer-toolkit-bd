@@ -1,0 +1,8 @@
+# freelancer-toolkit-bd — static site, no build step
+node_modules/
+npm-debug.log*
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
