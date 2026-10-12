@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Freelancer Toolkit BD — ফ্রিল্যান্সার টুলকিট বিডি</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar no-print">
+  <div class="brand">
+    <h1 id="brandTitle">Freelancer Toolkit BD</h1>
+    <p id="brandSub">Time tracking, invoices &amp; income — 100% offline</p>
+  </div>
+  <div class="toolbar">
+    <button id="btnLang" class="btn ghost">বাংলা</button>
+    <button id="btnSample" class="btn ghost">Sample data</button>
+    <button id="btnExport" class="btn ghost">Export</button>
+    <button id="btnImport" class="btn ghost">Import</button>
+    <button id="btnClear" class="btn danger-ghost">Clear all</button>
+    <input type="file" id="fileInput" accept="application/json,.json" class="hidden" aria-hidden="true" tabindex="-1">
+  </div>
+</header>
+
+<nav id="tabs" class="tabs no-print" aria-label="Sections"></nav>
+<div id="toast" class="toast no-print" aria-live="polite"></div>
+
+<main id="main" class="no-print"></main>
+
+<footer class="no-print"><p id="footNote"></p></footer>
+
+<div id="modal" class="modal no-print" role="dialog" aria-modal="true">
+  <div class="modal-box">
+    <h3 id="modalTitle"></h3>
+    <div id="modalBody"></div>
+    <div id="modalFoot" class="btnrow"></div>
+  </div>
+</div>
+
+<div id="printArea" class="print-only" aria-hidden="true"></div>
+
+<script src="js/words.js"></script>
+<script src="js/calc.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/store.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
